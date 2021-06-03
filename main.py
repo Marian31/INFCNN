@@ -17,12 +17,12 @@ parser.add_argument('--checkpoint_dir', dest='checkpoint_dir', default='checkpoi
                     help='models are saved here')
 parser.add_argument('--sample_dir', dest='sample_dir', default='sample_impulses', help='sample are saved here')
 parser.add_argument('--test_dir', dest='test_dir', default='test_impulses', help='test sample are saved here')
-parser.add_argument('--eval_clean_set', dest='eval_clean_set', default='clean_v30',
+parser.add_argument('--eval_clean_set', dest='eval_clean_set', default='clean_v0',
                     help='dataset for eval in training')
-parser.add_argument('--eval_noisy_set', dest='eval_noisy_set', default='noisy_v30',
+parser.add_argument('--eval_noisy_set', dest='eval_noisy_set', default='noisy_v0',
                     help='dataset for eval in training')
-parser.add_argument('--test_set_clean', dest='test_set_clean', default='clean_t30', help='dataset for testing')
-parser.add_argument('--test_set_noisy', dest='test_set_noisy', default='noisy_t30', help='dataset for testing')
+parser.add_argument('--test_set_clean', dest='test_set_clean', default='clean_t0', help='dataset for testing')
+parser.add_argument('--test_set_noisy', dest='test_set_noisy', default='noisy_t0', help='dataset for testing')
 parser.add_argument('--save_dir', dest='save_dir', default='./data', help='dir of patches')
 parser.add_argument('--database', dest='database', default='coco2017', help='database with images')
 parser.add_argument('--results_clean', dest='results_clean', default="./data/img_clean_patches",
