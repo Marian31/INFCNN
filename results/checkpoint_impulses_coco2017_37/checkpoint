@@ -1,0 +1,2 @@
+model_checkpoint_path: "IDCNN-tensorflow-21100"
+all_model_checkpoint_paths: "IDCNN-tensorflow-21100"
